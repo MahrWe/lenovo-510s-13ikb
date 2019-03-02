@@ -5,6 +5,14 @@
     fetch="http://github.com/RehabMan"
     revision="refs/heads/master" />
 
+    <remote name="acidanthera"
+    fetch="http://github.com/acidanthera"
+    revision="refs/heads/master" />
+
+    <remote name="Sinet3k"
+    fetch="http://github.com/sinetek"
+    revision="refs/heads/master" />
+
     <remote name="Mieze"
     fetch="http://github.com/Mieze"
     revision="refs/heads/master" />
@@ -16,12 +24,21 @@
     <default remote="RehabMan"
     sync-j="6" />
 
-    <project path="build/kexts/OS-X-Fake-PCI-ID" name="OS-X-Fake-PCI-ID" remote="RehabMan" />
+    <project path="build/kexts/VoodooI2C" name="VoodooI2C" remote="RehabMan" />
     <project path="build/kexts/OS-X-ACPI-Battery-Driver" name="OS-X-ACPI-Battery-Driver" remote="RehabMan" />
     <project path="build/kexts/OS-X-Voodoo-PS2-Controller" name="OS-X-Voodoo-PS2-Controller" remote="RehabMan" />
-    <project path="build/kexts/OS-X-Intel-Backlight" name="OS-X-Intel-Backlight" remote="RehabMan" />
+    <project path="build/kexts/OS-X-FakeSMC-kozlek" name="OS-X-FakeSMC-kozlek" remote="RehabMan" />
     <project path="build/kexts/OS-X-BrcmPatchRAM" name="OS-X-BrcmPatchRAM" remote="RehabMan" />
     <project path="build/kexts/OS-X-USB-Inject-All" name="OS-X-USB-Inject-All" remote="RehabMan" />
+    <project path="build/kexts/AppleBacklightFixup" name="AppleBacklightFixup" remote="RehabMan" />
+    
+    <project path="build/kexts/Lilu" name="Lilu" remote="acidanthera" />
+    <project path="build/kexts/AppleALC" name="AppleALC" remote="acidanthera" />
+    <project path="build/kexts/WhateverGreen" name="WhateverGreen" remote="acidanthera" />
+    <project path="build/kexts/BT4LEContiunutyFixup" name="BT4LEContiunityFixup" remote="acidanthera" />
+    <project path="build/kexts/AirportBrcmFixup" name="AirportBrcmFixup" remote="acidanthera" />
+    
+    <project path="build/kexts/Sinetek-rtsx" name="Sinetek-rtsx" remote="Sinet3k" />
     
     <project path="build/kexts/RTL8111_driver_for_OS_X" name="RTL8111_driver_for_OS_X" remote="Mieze" />
     
